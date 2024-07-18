@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="32dp"
+    android:orientation="vertical"
+    app:layout_constraintTop_toTopOf="parent">
+
+
+    <TextView
+        android:paddingStart="24dp"
+        android:id="@+id/dayText"
+        android:textAppearance="@style/h2"
+        android:textColor="?colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="16 Марта" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewChild"
+        android:paddingStart="24dp"
+        android:clipToPadding="false"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        tools:listitem="@layout/forecast_item" />
+</LinearLayout>
+

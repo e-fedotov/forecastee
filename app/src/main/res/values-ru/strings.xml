@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="pressure">%1$d мм рт. ст.</string>
+    <string name="temperature">%1$d°</string>
+    <string name="positiveTemperature">+%1$d°</string>
+
+    <string name="pressureUnit">\u0020мм рт. ст.</string>
+    <string name="windUnit">\u0020м/с</string>
+
+    <string name="pressureTitle">Давление</string>
+    <string name="feelsLikeTitle">Ощущается как</string>
+    <string name="windTitle">Ветер</string>
+</resources>

@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Weather" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/grey</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="cityTitle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="mainTemp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="currentParametersText" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="subtitle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?colorSecondary</item>
+    </style>
+
+    <style name="units" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="h2" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+>
+    </style>
+
+    <style name="forecastWeather" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?colorPrimary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="forecastTime" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?colorPrimary</item>
+    </style>
+
+</resources>

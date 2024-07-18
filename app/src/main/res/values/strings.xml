@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="pressure">%1$d mmHg</string>
+    <string name="temperature">%1$d°</string>
+    <string name="positiveTemperature">+%1$d°</string>
+
+    <string name="pressureUnit">\u0020mm Hg</string>
+    <string name="windUnit">\u0020m/s</string>
+
+    <string name="pressureTitle">Pressure</string>
+    <string name="feelsLikeTitle">Feels like</string>
+    <string name="windTitle">Wind</string>
+    <string name="title_activity_main2">MainActivity2</string>
+</resources>
