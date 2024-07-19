@@ -8,7 +8,6 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 // private const val TOKEN = "439d4b804bc8187953eb36d2a8c26a02"
-private const val TOKEN = "5d6856ceb454b32b0d5c24b1bef4ff1f"
 private const val BASE_URL = "https://api.openweathermap.org/data/2.5/"
 private const val OKHTTP_CONNECT_TIMEOUT = 10L
 private const val OKHTTP_WRITE_TIMEOUT = 30L
