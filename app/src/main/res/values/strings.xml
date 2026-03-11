@@ -11,4 +11,5 @@
     <string name="feelsLikeTitle">Feels like</string>
     <string name="windTitle">Wind</string>
     <string name="title_activity_main2">MainActivity2</string>
+    <string name="location_permission_denied">Location permission is required to show weather for your area</string>
 </resources>

@@ -1,7 +1,5 @@
 package ru.evgenyfedotov.weather.adapters
 
-import android.content.res.Resources
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -48,10 +46,6 @@ open class ForecastRowAdapter :
                     )
                 )
             }
-            Log.d("WeatherForecast", "${date.dayOfWeek.value} ")
-            Log.d("WeatherForecast", "${dayText.text} ${dayText.currentTextColor} ")
-
-
             val childForecastAdapter = ForecastItemAdapter(weather)
             childRecyclerView.layoutManager =
                 LinearLayoutManager(itemView.context, LinearLayoutManager.HORIZONTAL, false)
@@ -72,10 +66,6 @@ open class ForecastRowAdapter :
     )
 
     override fun onBindViewHolder(holder: DataViewHolder, position: Int) {
-        Log.d(
-            "WeatherForecast",
-            "${forecastDates[position]} ${forecastDataSet[forecastDates[position]]!!} "
-        )
         holder.bind(forecastDates[position], forecastDataSet[forecastDates[position]]!!)
     }
 
